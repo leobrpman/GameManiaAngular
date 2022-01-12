@@ -1,1 +1,17 @@
-<p>login works!</p>
+<form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+    <label for="email">Usuário: </label>
+    <input type="email" id="email" name="email" [(ngModel)]="loginModel.email">
+
+    <label for="password">Senha: </label>
+    <input type="password" id="password" name="password" [(ngModel)]="loginModel.password">
+
+    <button type="submit">Enviar</button>
+
+    <!-- <p *ngIf="loginModel.email = ''">Digite seu usuário</p> -->
+
+</form>
+
+<a routerLink="">Home</a>
+<a routerLink="/equips">Equipamentos</a>
+<a routerLink="/games">Games</a>
+<a routerLink="/pcgamer">PC Gamer</a>

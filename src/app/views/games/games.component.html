@@ -1,1 +1,17 @@
-<p>games works!</p>
+<a routerLink="">Home </a>
+<a routerLink="/login">Login </a>
+<a routerLink="/equips">Equipamentos </a>
+<a routerLink="/pcgamer">PC Gamer </a>
+
+
+<div class="news">
+    <h1>Notícias</h1>
+    <div id="news_space" class="content-news">
+        <div *ngFor="let game of listaGames" class="card-news">
+            <a href="#"><img src={{game.img}} alt="imagem da capa do game Resident Evil 4"></a>
+            <h3>{{ game.titulo }}</h3>
+            <p>{{ game.descricao }}</p>
+            <a href="#">Ler notícia</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "img": "assets/img/re4-vr.png",
+      "titulo": "Resident Evil 4 VR",
+      "descricao": "O jogo será lançado em 21 de outubro para Oculus Quest 2. A data foi anunciada por meio de  trailer inédito divulgado nesta segunda (27).Anova versão não deverá ser lançada para outras plataformas. R$ 199,90"
+    },
+    {
+      "img": "assets/img/re4-vr.png",
+      "titulo": "FIFA 22",
+      "descricao": "FIFA 22 tem saldo positivo ao mergulhar na nova geração de consoles. Novo game, como de costume, parece solucionar grandes problemas do anterior. Para PS 5 e Xbox Series. Ler notícia. R$ 229,90",
+      "id": 2
+    },
+    {
+      "img": "assets/img/re4-vr.png",
+      "titulo": "Game 3",
+      "descricao": "Descrição Game 3. R$ 229,90",
+      "id": 3
+    },
+    {
+      "img": "assets/img/re4-vr.png",
+      "titulo": "Game 4",
+      "descricao": "Descrição Game 4. R$ 229,90",
+      "id": 4
+    },
+    {
+      "img": "assets/img/re4-vr.png",
+      "titulo": "Game 5",
+      "descricao": "Descrição Game 5. R$ 229,90",
+      "id": 5
+    },
+    {
+      "img": "assets/img/re4-vr.png",
+      "titulo": "Game 6",
+      "descricao": "Descrição Game 6. R$ 229,90",
+      "id": 6
+    },
+    {
+      "img": "assets/img/re4-vr.png",
+      "titulo": "Game 7",
+      "descricao": "Descrição Game 7. R$ 229,90",
+      "id": 7
+    },
+    {
+      "img": "assets/img/re4-vr.png",
+      "titulo": "Game 8",
+      "descricao": "Descrição Game 8. R$ 229,90",
+      "id": 8
+    },
+    {
+      "img": "assets/img/re4-vr.png",
+      "titulo": "Game 9",
+      "descricao": "Descrição Game 9. R$ 229,90",
+      "id": 9
+    }
+  ]
+}

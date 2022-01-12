@@ -13,3 +13,6 @@ export class HomeComponent implements OnInit {
   }
 
 }
+
+
+// colocar o JS aqui "traduzindo" pra typescript

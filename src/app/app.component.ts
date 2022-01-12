@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'GameManiaAngular';
+
+// colocar métodos globais (todas as páginas) JS aqui "traduzindo" pra typescript
+
 }
