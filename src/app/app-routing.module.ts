@@ -4,6 +4,7 @@ import { EquipsComponent } from './views/equips/equips.component';
 import { GamesComponent } from './views/games/games.component';
 import { HomeComponent } from './views/home/home.component';
 import { LoginComponent } from './views/login/login.component';
+import { NotFoundComponent } from './views/not-found/not-found.component';
 import { PcgamerComponent } from './views/pcgamer/pcgamer.component';
 
 const routes: Routes = [
@@ -12,6 +13,8 @@ const routes: Routes = [
   { path: "equips", component: EquipsComponent },
   { path: "login", component: LoginComponent },
   { path: "pcgamer", component: PcgamerComponent },
+  { path: "notFound", component: NotFoundComponent},
+  { path: "**", redirectTo: "notFound"}
 ];
 
 @NgModule({

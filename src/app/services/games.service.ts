@@ -16,7 +16,7 @@ export class GamesService {
 
   // Variável que armazena as configurações dos headers da requisição
   httpOptions = {
-    headers: new HttpHeaders ({ 'Context-Type': 'application/json'})
+    headers: new HttpHeaders ({ 'Content-Type': 'application/json'})
   }
 
   // Método GET, que vai trazer os dados requisitados da API
@@ -33,7 +33,7 @@ export class GamesService {
 // }
 
 // postUser(user: User): Observable<User[]> {
-//   return this.httpClient.post<User[]>(this.url, JSON.stringify(user), this.httpOptions)
+//   return this.httpClient.post<any>(this.url, JSON.stringify(user), this.httpOptions)
 // }
 
 // +

@@ -1,4 +1,15 @@
 {
+  "users": [
+    {
+      "email": "leonardo@email.com",
+      "password": "$2a$10$0P7Kd8fut7GWJ0VE23VwpOWTXCwfAhygu7mkBjourx9zSgl37rbZa",
+      "id": 1
+    }
+],
+
+
+
+
   "games": [
     {
       "id": 1,

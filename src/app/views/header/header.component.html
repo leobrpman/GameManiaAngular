@@ -1,1 +1,37 @@
-<p>header works!</p>
+<header>
+    <div class="container position_header">
+        <a href="#"><img class="logo" src="assets/img/Logo.svg" alt="Logo Game Mania"></a>
+        <!-- <form class="search" action="">
+            <input id="campo_search" class="campo_search" type="search" placeholder="Digite o que procura..." required>
+            <button class="search_button" onclick="searchGo()"></button>
+        </form> -->
+        <nav class="icons">
+            <a href="#"><img class="icon_header" src="assets/img/help.svg" alt="Fale Conosco"></a>
+            <a routerLink="login"><img class="icon_header" src="assets/img/login1.svg" alt="Login"></a>
+            <a href="#"><img class="icon_header" src="assets/img/carrinho.svg" alt="Carrinho"></a>
+            <!-- <a href="#" onclick="mostrarMenu()"><img class="bars_menu" src="./img/bars.svg" alt="Menu de barras"></a> -->
+            <a href="#" id="bars" class="bars_menu" ><img src="assets/img/bars.svg" alt="Menu de barras"></a>
+        </nav>
+    </div>
+    <div class="secao_categorias">
+        <div id="categorias" class="categorias container">
+            <a routerLink="equips">PCs e Notebooks</a>
+            <a routerLink="equips">Celulares</a>
+            <a routerLink="games">Jogos</a>
+            <a routerLink="equips">Acessórios</a>
+            <a routerLink="equips">Home Office</a>
+            <a routerLink="pcgamer">PC Gamer</a>
+            <a href="#">Notícias</a>
+            <a href="#">Sobre</a>
+        </div>
+    </div>
+    <div class="secao_mobile">
+        <div class="icons_mobile container">
+            <a href="#"><img class="icon_header" src="assets/img/support_w.png" alt="Fale Conosco"></a>
+            <a routerLink="login"><img class="icon_header" src="assets/img/login_w.png" alt="Login"></a>
+            <a href="#"><img class="icon_header" src="assets/img/carrinho_w.png" alt="Carrinho"></a>
+            <!-- <a href="#" onclick="mostrarMenu()"><img class="bars_menu" src="./img/bars.svg" alt="Menu de barras"></a> -->
+            <a href="#" id="bars" class="bars_menu" ><img src="assets/img/menu_w.png" alt="Menu de barras"></a>
+        </div>
+    </div>
+</header>

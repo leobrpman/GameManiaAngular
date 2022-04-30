@@ -98,7 +98,7 @@ header {
 }
 
 .banner1 {
-    /* background-image: url(../); */
+    background-image: url(/assets/img/img_games.png);
     height: 800px;
     background-repeat: no-repeat;
     background-position: center;
@@ -106,7 +106,7 @@ header {
 }
 
 .banner2 {
-    /* background-image: url(../img/img_equip.png); */
+    background-image: url(/assets/img/img_equip.png);
     height: 800px;
     background-repeat: no-repeat;
     background-position: center;
@@ -114,7 +114,7 @@ header {
 }
 
 .banner3 {
-    /* background-image: url(../img/img_pcgamer.png); */
+    background-image: url(/assets/img/img_pcgamer.png);
     height: 800px;
     background-repeat: no-repeat;
     background-position: center;
@@ -344,7 +344,7 @@ header {
 }
 
 .search_button {
-    /* background-image: url(../img/lupa.png); */
+    background-image: url(/assets/img/lupa.png);
     background-size: cover;
     width: 15%;
     align-items: center;
@@ -813,7 +813,7 @@ header {
     } */
     
     .banner1 {
-        /* background-image: url(../img/img_games.png); */
+        background-image: url(/assets/img/img_games.png);
         height: 320px;
         background-repeat: no-repeat;
         background-position: center;
@@ -821,7 +821,7 @@ header {
     }
     
     .banner2 {
-        /* background-image: url(../img/img_equip.png); */
+        background-image: url(/assets/img/img_equip.png);
         height: 320px;
         background-repeat: no-repeat;
         background-position: center;
@@ -829,7 +829,7 @@ header {
     }
     
     .banner3 {
-        /* background-image: url(../img/img_pcgamer.png); */
+        background-image: url(/assets/img/img_pcgamer.png);
         height: 320px;
         background-repeat: no-repeat;
         background-position: center;
